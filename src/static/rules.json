@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilters": "googlesyndication",
+      "resourceTypes": ["image"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilters": "googleadservices",
+      "resourceTypes": ["image", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 3,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilters": "doubleclick",
+      "resourceTypes": ["image", "xmlhttprequest"]
+    }
+  }
+]
